@@ -1,4 +1,4 @@
-### Chat GPT Mac Shortcut
+# Chat GPT Mac Shortcut
 
 This script is a Bash script for calling the OpenAI API to generate text using the GPT-3.5 model. The script takes one argument, which is the user's message to the AI.
 
@@ -22,3 +22,7 @@ Now, whenever you have some text selected, you can use the keyboard shortcut to 
 ## Workflow
 
 ![Gpt Workflow](/data/shortcut.png)
+
+![Gpt Workflow](/data/shortcut_1.png)
+
+![Gpt Workflow](/data/shortcut_2.png)
