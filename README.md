@@ -8,16 +8,13 @@ When you run the script with a message as an argument, it sends a request to the
 
 If you are using a Mac, you can create a shortcut to automate running this script with a selected text as an argument. Here are the steps to create the shortcut:
 
-- Open Automator and create a new "Quick Action" document.
-- In the "Workflow receives current" dropdown menu, select "text".
-- Search for the "Run Shell Script" action and drag it into the workflow area.
+- Open Shortcuts and create a new shortcut.
+- Allow Quick actions to be able to use shortcut keys.
+- Search for the "Run Shell Script" action.
 - Copy and paste the script into the "Run Shell Script" action.
-- Save the quick action with a name like "Generate OpenAI Text".
-- Go to System Preferences > Keyboard > Shortcuts > Services.
-- Scroll down to the "Text" section and find the "Generate OpenAI Text" service.
-- Click on the service and assign a keyboard shortcut to it.
+- Add a show action which will get the output from the shellscript and show it as a pop up window.
 
-Now, whenever you have some text selected, you can use the keyboard shortcut to generate text from the OpenAI API. The generated text will be displayed in a notification on your Mac.
+Note: You can find most of the settings in the screenshots provided.
 
 ## Workflow
 
